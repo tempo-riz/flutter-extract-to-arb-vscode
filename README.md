@@ -1,13 +1,14 @@
 # Flutter Extract to ARB 
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/zealousFoundry.flutter-extract-to-arb?label=Version)](https://marketplace.visualstudio.com/items?itemName=zealousFoundry.flutter-extract-to-arb)
+[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/zealousFoundry.flutter-extract-to-arb?label=VS%20Marketplace%20Downloads)](https://marketplace.visualstudio.com/items?itemName=zealousFoundry.flutter-extract-to-arb)
+[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/zealousfoundry/flutter-extract-to-arb?label=Open%20VSX%20Downloads)](https://open-vsx.org/extension/ZealousFoundry/flutter-extract-to-arb)
+
 ## 🔗 Links
 
 Download the extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=zealousFoundry.flutter-extract-to-arb) or the [Open VSX Registry](https://open-vsx.org/extension/ZealousFoundry/flutter-extract-to-arb)
 
 If you want to add a feature or file a bug, please open an issue on the [GitHub repository](https://github.com/tempo-riz/flutter-extract-to-arb-vscode)
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/zealousFoundry.flutter-extract-to-arb?label=Version)](https://marketplace.visualstudio.com/items?itemName=zealousFoundry.flutter-extract-to-arb)
-[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/zealousFoundry.flutter-extract-to-arb?label=VS%20Marketplace%20Downloads)](https://marketplace.visualstudio.com/items?itemName=zealousFoundry.flutter-extract-to-arb)
-[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/zealousfoundry/flutter-extract-to-arb?label=Open%20VSX%20Downloads)](https://open-vsx.org/extension/ZealousFoundry/flutter-extract-to-arb)
 
 ## 💡 Code Action
 
@@ -16,20 +17,12 @@ If you want to add a feature or file a bug, please open an issue on the [GitHub 
 
 <img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/049cb13ef79d7209b9ec8716cf471af803476dc2/demo/demo-action.gif?raw=true" width="1000"/>
 
-## 🛠️ Commands
+## 🛠️ Setup Command
 
-Access these from the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`):
+Access from the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`):
 
-* **Setup Localization for Project** : 
+**Setup Localization for Project** : 
   Sets up all necessary files for localization in your Flutter project, including `l10n.yaml`, `intl.dart`, and `arb` files.
-
-* **Extract Texts (Current File)** : 
-  Extracts all `Text()` widget strings in the current Dart file to your ARB files.
-
-* **Extract Texts (Project)** : 
-  Extracts all `Text()` widget strings from the `lib/` folder to your ARB files.
-
-<img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/049cb13ef79d7209b9ec8716cf471af803476dc2/demo/demo-file.gif?raw=true" width="1000"/>
 
 
 ## ⚡ Manual Setup (I recommend using the setup command instead)
