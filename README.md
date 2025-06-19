@@ -64,14 +64,8 @@ You can get a generous free API key [here](https://www.deepl.com/en/pro#develope
 
 And that's it! You're ready to go 🚀
 
-## Links
 
-Download the extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=zealousFoundry.flutter-extract-to-arb) or the [Open VSX Registry](https://open-vsx.org/extension/ZealousFoundry/flutter-extract-to-arb)
-
-
-If you want to add a feature or file a bug, please open an issue on the [GitHub repository](https://github.com/tempo-riz/flutter-extract-to-arb-vscode)
-
-## Pro tips
+## 😎 Pro tips
 You can define an extension getter to access your translations more concisely:
 ```dart
 extension ContextExt on BuildContext {
@@ -86,6 +80,13 @@ Text(context.t.yourKey)
 ```
 Don't forget to update the `key-prefix` & `import-line` options in l10n.yaml ;)
 
-## Support
+## 🔗 Links
+
+Download the extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=zealousFoundry.flutter-extract-to-arb) or the [Open VSX Registry](https://open-vsx.org/extension/ZealousFoundry/flutter-extract-to-arb)
+
+
+If you want to add a feature or file a bug, please open an issue on the [GitHub repository](https://github.com/tempo-riz/flutter-extract-to-arb-vscode)
+
+## ☕ Support
 
 If you'd like to support this project, consider contributing [here](https://github.com/sponsors/tempo-riz). Thank you! :)
