@@ -12,7 +12,7 @@ Download the extension from the [Visual Studio Marketplace](https://marketplace.
 **Extract String to ARB**
   Right-click a string (or quick fix it with `⌘.` / `Ctrl+.`) and select "Extract String to ARB".
 
-<img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/89a7d4447b51616abc8526a9bea253b1b978506f/assets/demo.gif?raw=true" width="1000"/>
+<img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/049cb13ef79d7209b9ec8716cf471af803476dc2/demo/demo-action.gif?raw=true" width="1000"/>
 
 ## 🛠️ Commands
 
@@ -24,7 +24,7 @@ Access these from the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`):
 * **Extract Texts (Project)**
   Extracts all `Text()` widget strings from the `lib/` folder to your ARB files.
 
-<img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/69c42d896b15b1dd04ba1d31efabba7b950d558a/assets/demo2.gif?raw=true" width="1000"/>
+<img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/049cb13ef79d7209b9ec8716cf471af803476dc2/demo/demo-file.gif?raw=true" width="1000"/>
 
 
 ## ⚡ Quick Setup
