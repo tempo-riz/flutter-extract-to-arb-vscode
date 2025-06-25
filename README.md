@@ -12,7 +12,7 @@ If you want to add a feature or file a bug, please open an issue on the [GitHub 
 
 ## 💡 Code Action
 
-- **Extract String to ARB** : Right-click a string (or quick fix it with `⌘.` / `Ctrl+.`) and select "Extract String to ARB".
+**Extract String to ARB** : Right-click a string (or quick fix it with `⌘.` / `Ctrl+.`) and select "Extract String to ARB".
 
 <img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/049cb13ef79d7209b9ec8716cf471af803476dc2/demo/demo-action.gif?raw=true" width="1000"/>
 
