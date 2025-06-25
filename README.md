@@ -12,20 +12,35 @@ If you want to add a feature or file a bug, please open an issue on the [GitHub 
 
 ## 💡 Code Action
 
-**Extract String to ARB**
-  Right-click a string (or quick fix it with `⌘.` / `Ctrl+.`) and select "Extract String to ARB".
+- **Extract String to ARB** : Right-click a string (or quick fix it with `⌘.` / `Ctrl+.`) and select "Extract String to ARB".
 
 <img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/049cb13ef79d7209b9ec8716cf471af803476dc2/demo/demo-action.gif?raw=true" width="1000"/>
 
-## 🛠️ Setup Command
+
+## ⚡️ Commands (Premium Features)
+
+🛒 *Premium only*: Requires a valid license key. [Buy one for $14.90 →](https://your-buy-link.com "Purchase a license to unlock premium features")
+
+
+Access from the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`):
+
+- **Extract Texts (Current File)** : Extracts all `Text()` widget strings in the current Dart file to your ARB files.
+
+- **Extract Texts (Project)** : Extracts all `Text()` widget strings from the `lib/` folder to your ARB files.
+
+
+<img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/049cb13ef79d7209b9ec8716cf471af803476dc2/demo/demo-file.gif?raw=true" width="1000"/>
+
+## 🚀 Getting Started (Auto Setup)
 
 Access from the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`):
 
 **Setup Localization for Project** : 
-  Sets up all necessary files for localization in your Flutter project, including `l10n.yaml`, `intl.dart`, and `arb` files.
+  Sets up all necessary files for localization in your Flutter project, including `l10n.yaml`, `pubspec.yaml` and `arb` files.
 
+<img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/ff1e41f908f57a950fe457fee54c13c732b0ca19/demo/demo-setup.gif?raw=true" width="1000"/>
 
-## ⚡ Manual Setup (I recommend using the setup command instead)
+## 🔧 Manual Setup (I recommend using the setup command instead)
 
 You should already have a `l10n.yaml` file in your project. If not, create one.  
 This extension uses Flutter's official options for internationalization. See [Flutter's i18n docs](https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization#configuring-the-l10n-yaml-file)
@@ -44,7 +59,7 @@ generate: true
 key-prefix: AppLocalizations.of(context)!.  
 
 # Generate key name
-# "ask" = prompt with pre-filled text, true = infer from text, false = prompt manually  
+# "ask" = Prompt with a suggested key name, true = infer from text, false = prompt manually  
 auto-name-key: true       
 
 # Language to use for key name generation                 
@@ -55,13 +70,13 @@ import-line: ""
 ```
 
 
-For the translation feature to work, you need to add your Deepl API key in vscode settings.json file:
+For translation to work, you need to add your Deepl API key in vscode settings.json file (`⇧⌘P` / `Ctrl+Shift+P` → `Preferences: Open User Settings (JSON)`):
 
 `"flutter.deeplApiKey": "your-key",`   
 
 You can get a generous free API key [here](https://www.deepl.com/en/pro#developer)
 
-finally set the generate option to true in your `pubspec.yaml` file:
+Finally, make sure `generate: true` is set in your `pubspec.yaml`:
 
 ```yaml
 flutter:
