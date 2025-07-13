@@ -16,6 +16,14 @@ If you want to add a feature or file a bug, please open an issue on the [GitHub 
 
 <img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/049cb13ef79d7209b9ec8716cf471af803476dc2/demo/demo-action.gif?raw=true" width="1000"/>
 
+## 🚀 Getting Started (Auto Setup)
+
+Access from the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`):
+
+**Setup Localization for Project** : 
+  Sets up all necessary files for localization in your Flutter project, including `l10n.yaml`, `pubspec.yaml` and `arb` files.
+
+<img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/ff1e41f908f57a950fe457fee54c13c732b0ca19/demo/demo-setup.gif?raw=true" width="1000"/>
 
 ## ⚡️ Commands (Premium Features)
 
@@ -31,14 +39,6 @@ Access from the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`):
 
 <img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/049cb13ef79d7209b9ec8716cf471af803476dc2/demo/demo-file.gif?raw=true" width="1000"/>
 
-## 🚀 Getting Started (Auto Setup)
-
-Access from the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`):
-
-**Setup Localization for Project** : 
-  Sets up all necessary files for localization in your Flutter project, including `l10n.yaml`, `pubspec.yaml` and `arb` files.
-
-<img src="https://github.com/tempo-riz/flutter-extract-to-arb-vscode/blob/ff1e41f908f57a950fe457fee54c13c732b0ca19/demo/demo-setup.gif?raw=true" width="1000"/>
 
 ## 🔧 Manual Setup (I recommend using the setup command instead)
 
