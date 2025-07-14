@@ -27,7 +27,7 @@ Access from the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`):
 
 ## ⚡️ Commands (Premium Features)
 
-🛒 *Premium only*: Requires a valid license key. [Buy one for $14.90 →](https://your-buy-link.com "Purchase a license to unlock premium features")
+🛒 *Premium only*: Requires a valid license key. [Buy one for $14.90 →](https://zealousfoundry.lemonsqueezy.com/buy/ce399620-be05-4078-b75d-a2a52e32888f "Purchase a license to unlock premium features")
 
 
 Access from the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`):
