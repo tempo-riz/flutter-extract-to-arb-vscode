@@ -66,7 +66,10 @@ auto-name-key: true
 key-name-language: en       
 
 # Import line to insert if needed                
-import-line: ""                             
+import-line: ""
+
+# Explicitly set source language for google trad fallback
+source-language: ""                             
 ```
 
 
